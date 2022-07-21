@@ -1,0 +1,36 @@
+package:
+  name: sorarepy
+  version: 0.0.1
+source:
+  sha256: 92e334ba5096e4a28eff6ab7ab5d321376be7b45355fb6d58ec224648d3a6db2
+  url: https://files.pythonhosted.org/packages/6a/f7/bd95f1c09b28de8ece97452f6de0480a2bd323d6844d3aea0c51a78b84b6/sorarepy-0.0.1.tar.gz
+about:
+  dev_url: https://seanyboi.github.io
+  doc_url: https://seanyboi.github.io
+  home: https://seanyboi.github.io
+  license: Apache Software
+  license_family: APACHE
+  summary: A python wrapper for the Sorare API.
+build:
+  noarch: python
+  number: '0'
+  script: '{{ PYTHON }} -m pip install . -vv'
+extra:
+  recipe-maintainers:
+  - seanyboi
+requirements:
+  host:
+  - pip
+  - python
+  - packaging
+  - requests
+  - bcrypt
+  run:
+  - pip
+  - python
+  - packaging
+  - requests
+  - bcrypt
+test:
+  imports:
+  - sorarepy
