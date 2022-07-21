@@ -32,39 +32,6 @@ nb_path: "00_login.ipynb"
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">load_ext</span> autoreload
-<span class="o">%</span><span class="k">autoreload</span> 2
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>The autoreload extension is already loaded. To reload it, use:
-  %reload_ext autoreload
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
 
 </div>
     {% endraw %}
@@ -80,7 +47,7 @@ nb_path: "00_login.ipynb"
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h2 id="LoginError" class="doc_header"><code>class</code> <code>LoginError</code><a href="sorarepy/login.py#L12" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>LoginError</code>() :: <code>Exception</code></p>
+<h2 id="LoginError" class="doc_header"><code>class</code> <code>LoginError</code><a href="https://github.com/seanyboi/sorarepy/tree/master/sorarepy/login.py#L12" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>LoginError</code>() :: <code>Exception</code></p>
 </blockquote>
 <p>Common base class for all non-exit exceptions.</p>
 
@@ -112,7 +79,7 @@ nb_path: "00_login.ipynb"
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h2 id="LoginSorare" class="doc_header"><code>class</code> <code>LoginSorare</code><a href="sorarepy/login.py#L16" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>LoginSorare</code>(<strong><code>app_name</code></strong>:<code>str</code>, <strong><code>email</code></strong>:<code>str</code>, <strong><code>password</code></strong>:<code>str</code>, <strong><code>two_factor</code></strong>:<code>str</code>=<em><code>None</code></em>)</p>
+<h2 id="LoginSorare" class="doc_header"><code>class</code> <code>LoginSorare</code><a href="https://github.com/seanyboi/sorarepy/tree/master/sorarepy/login.py#L16" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>LoginSorare</code>(<strong><code>app_name</code></strong>:<code>str</code>, <strong><code>email</code></strong>:<code>str</code>, <strong><code>password</code></strong>:<code>str</code>, <strong><code>two_factor</code></strong>:<code>str</code>=<em><code>None</code></em>)</p>
 </blockquote>
 
 </div>
@@ -143,90 +110,12 @@ nb_path: "00_login.ipynb"
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="LoginSorare.login" class="doc_header"><code>LoginSorare.login</code><a href="sorarepy/login.py#L126" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>LoginSorare.login</code>()</p>
+<h4 id="LoginSorare.login" class="doc_header"><code>LoginSorare.login</code><a href="https://github.com/seanyboi/sorarepy/tree/master/sorarepy/login.py#L126" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>LoginSorare.login</code>()</p>
 </blockquote>
 <p>Retrieves JWT and club name.</p>
 
 </div>
 
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="n">LoginSorare</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s2">&quot;test_app&quot;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s2">&quot;abc@gmail.com&quot;</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s2">&quot;abc&quot;</span><span class="p">,</span> <span class="n">two_factor</span><span class="o">=</span><span class="s2">&quot;12345&quot;</span><span class="p">)</span>
-<span class="n">token</span><span class="p">,</span> <span class="n">club_name</span> <span class="o">=</span> <span class="n">l</span><span class="o">.</span><span class="n">login</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">LoginError</span>                                Traceback (most recent call last)
-Input <span class="ansi-green-fg">In [41]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 3&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> <span style="color: rgb(95,135,135)">#skip</span>
-<span class="ansi-green-intense-fg ansi-bold">      2</span> l <span style="color: rgb(98,98,98)">=</span> LoginSorare(app_name<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">test_app</span><span style="color: rgb(175,0,0)">&#34;</span>, email<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">abc@gmail.com</span><span style="color: rgb(175,0,0)">&#34;</span>, password<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">abc</span><span style="color: rgb(175,0,0)">&#34;</span>, two_factor<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">12345</span><span style="color: rgb(175,0,0)">&#34;</span>)
-<span class="ansi-green-fg">----&gt; 3</span> token, club_name <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">l</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">login</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
-
-Input <span class="ansi-green-fg">In [39]</span>, in <span class="ansi-cyan-fg">LoginSorare.login</span><span class="ansi-blue-fg">(self)</span>
-<span class="ansi-green-intense-fg ansi-bold">    124</span> errors <span style="color: rgb(98,98,98)">=</span> query_response<span style="color: rgb(98,98,98)">.</span>get(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">data</span><span style="color: rgb(175,0,0)">&#34;</span>,{})<span style="color: rgb(98,98,98)">.</span>get(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">signIn</span><span style="color: rgb(175,0,0)">&#34;</span>, {})<span style="color: rgb(98,98,98)">.</span>get(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">errors</span><span style="color: rgb(175,0,0)">&#34;</span>, [])
-<span class="ansi-green-intense-fg ansi-bold">    126</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">len</span>(errors) <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> errors[<span style="color: rgb(98,98,98)">0</span>][<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">message</span><span style="color: rgb(175,0,0)">&#39;</span>] <span style="color: rgb(98,98,98)">!=</span> <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">2fa_missing</span><span style="color: rgb(175,0,0)">&#34;</span>:
-<span class="ansi-green-fg">--&gt; 127</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> LoginError(<span style="color: rgb(175,0,0)">f</span><span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">Please check email, password or two factor token - </span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>errors[<span style="color: rgb(98,98,98)">0</span>][<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">message</span><span style="color: rgb(175,0,0)">&#39;</span>]<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)">&#34;</span>)
-<span class="ansi-green-intense-fg ansi-bold">    129</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>opt_challenge <span style="color: rgb(98,98,98)">=</span> query_response<span style="color: rgb(98,98,98)">.</span>get(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">data</span><span style="color: rgb(175,0,0)">&#34;</span>,{})<span style="color: rgb(98,98,98)">.</span>get(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">signIn</span><span style="color: rgb(175,0,0)">&#34;</span>, {})<span style="color: rgb(98,98,98)">.</span>get(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">otpSessionChallenge</span><span style="color: rgb(175,0,0)">&#34;</span>, <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>)
-<span class="ansi-green-intense-fg ansi-bold">    131</span> query_login <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>login_query(url<span style="color: rgb(98,98,98)">=</span>url, headers<span style="color: rgb(98,98,98)">=</span>headers, ops_name<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">SignInMutation</span><span style="color: rgb(175,0,0)">&#39;</span>)
-
-<span class="ansi-red-fg">LoginError</span>: Please check email, password or two factor token - invalid</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">nbdev.export</span> <span class="kn">import</span> <span class="n">notebook2script</span><span class="p">;</span> <span class="n">notebook2script</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Converted 00_login.ipynb.
-Converted index.ipynb.
-</pre>
-</div>
 </div>
 
 </div>

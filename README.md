@@ -16,43 +16,20 @@
 
 Import
 
-```
+```python
 from sorarepy.login import LoginSorare
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    ImportError                               Traceback (most recent call last)
-
-    Input In [15], in <cell line: 1>()
-    ----> 1 from sorarepy.login import LoginSorare
-
-
-    ImportError: cannot import name 'LoginSorare' from 'sorarepy.login' (/Users/sean/Development/Personal/sorare_py/sorarepy/login.py)
-
 
 ## Login
 
 To receieve your JWT and team name slug.
 
-```
+```python
+# skip 
+# hide_output
 l = LoginSorare(app_name="test_app", email="abc@gmail.com", password="abc", two_factor="12345")
 token, club_name = l.login()
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    Input In [16], in <cell line: 1>()
-    ----> 1 l = LoginSorare(app_name="test_app", email="abc@gmail.com", password="abc", two_factor="12345")
-          2 token, club_name = l.login()
-
-
-    NameError: name 'LoginSorare' is not defined
-
 
 ## Contributions
 
