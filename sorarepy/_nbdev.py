@@ -2,9 +2,9 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"LoginSorare": "00_login.ipynb"}
 
-modules = []
+modules = ["login.py"]
 
 doc_url = "https://seanyboi.github.io/sorarepy/"
 
