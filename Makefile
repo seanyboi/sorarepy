@@ -2,11 +2,11 @@
 SHELL := /bin/bash
 SRC = $(wildcard ./*.ipynb)
 
-all: sorare_py docs
+all: sorarepy docs
 
-sorare_py: $(SRC)
+sorarepy: $(SRC)
 	nbdev_build_lib
-	touch sorare_py
+	touch sorarepy
 
 sync:
 	nbdev_update_lib

@@ -1,24 +1,22 @@
-# Project name here
-> Summary description here.
+# Sorare Py
+> A python wrapper for the Sorare API
 
-
-This file will become your README and also the index of your documentation.
 
 ## Install
 
-`pip install your_project_name`
+#### Pip
 
-## How to use
+`pip install sorarepy`
 
-Fill me in please! Don't forget code examples:
+#### Conda
 
+`conda install sorarepy`
+
+## Login
+
+To receieve your JWT and team name slug.
+
+```python
+l = LoginSorare(app_name="test_app", email="abc@gmail.com", password="abc", two_factor="12345")
+token, club_name = l.login()
 ```
-1+1
-```
-
-
-
-
-    2
-
-

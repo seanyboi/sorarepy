@@ -10,7 +10,7 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
+      title: LoginSorare
       url: core.html
     output: web
     title: sorare_py
