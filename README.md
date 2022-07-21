@@ -25,8 +25,6 @@ from sorarepy.login import LoginSorare
 To receieve your JWT and team name slug.
 
 ```
-# skip
-# hide_output
 l = LoginSorare(app_name="test_app", email="abc@gmail.com", password="abc", two_factor="12345")
 token, club_name = l.login()
 ```
