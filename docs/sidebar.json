@@ -1,6 +1,6 @@
 {
-  "sorare_py": {
+  "sorarepy": {
     "Overview": "/",
-    "LoginSorare": "core.html"
+    "LoginSorare": "login.html"
   }
 }

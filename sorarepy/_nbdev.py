@@ -2,7 +2,8 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"LoginSorare": "00_login.ipynb"}
+index = {"LoginError": "00_login.ipynb",
+         "LoginSorare": "00_login.ipynb"}
 
 modules = ["login.py"]
 

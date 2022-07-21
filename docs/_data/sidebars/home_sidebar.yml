@@ -11,8 +11,8 @@ entries:
       url: /
     - output: web,pdf
       title: LoginSorare
-      url: core.html
+      url: login.html
     output: web
-    title: sorare_py
+    title: sorarepy
   output: web
   title: Sidebar
